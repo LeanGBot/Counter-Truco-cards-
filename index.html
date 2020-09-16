@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/app.png" type="image/gif" sizes="16x16">
+    <script src="jq/jquery-3.4.1.min.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <title>Contador de truco</title>
+</head>
+<body>
+<script type="text/javascript" src="cordova.js"></script>
+<div class="menu">     
+<div class="logo">
+    <img class="imglogo" src="img/Logo.png" alt="">
+</div>
+    <div class="contLblEquipo">
+        <input type="text" name="equipo1" id="lblEquipo1" value="Equipo 1"> <br>
+        <input type="text" name="equipo2" id="lblEquipo2" value="Equipo 2">
+    </div>
+    
+    <div class="selValor">
+        <input type="button" value="a 24" id="selA24">
+        <input type="button" value="a 30" id="selA30">
+    </div>
+    <div class="btnInicio">
+        <input type="button" value="Iniciar" id="btnInicio">
+    </div>    
+</div>
+
+<div class="tablero">
+<div class="lineaVert"></div>
+<!--Seccion Ln1-->
+    <div class="fixAreaObjeto_Ln1">
+        <div class="areaObjeto_ln1">
+            <input type="button" value="+" id="btn_Inc_1">
+        </div>
+        <div class="areaObjeto_ln1">
+            <p id="lbl2_Equipo1">Equipo1</p>
+        </div>
+        <div class="areaObjeto_ln1">
+            <p id="lbl2_Equipo2">Equipo2</p>
+        </div>
+        <div class="areaObjeto_ln1">
+            <input type="button" value="+" id="btn_Inc_2">
+        </div>
+    </div>
+<!--Fin Seccion Ln1-->
+
+<hr>
+
+<!--Seccion Ln2-->
+<div class="fixAreaObjeto_Ln2">
+        <div class="areaObjeto_ln2">
+            <img id="imgln1_j1_1" src="img/0.png" alt=""> <br>
+            <img id="imgln1_j1_2" src="img/0.png" alt=""> <br>
+            <img id="imgln1_j1_3" src="img/0.png" alt=""> <br>
+        </div>
+
+        <div class="areaObjeto_ln2">
+            <img id="imgln1_j2_1" src="img/0.png" alt=""> <br>
+            <img id="imgln1_j2_2" src="img/0.png" alt=""> <br>
+            <img id="imgln1_j2_3" src="img/0.png" alt=""> <br>
+        </div>
+</div>
+<!--Fin Seccion Ln2-->
+
+<hr>
+
+<!--Seccion Ln3-->
+<div class="fixAreaObjeto_Ln3">
+    <div class="areaObjeto_ln3">
+        <img id="imgln2_j1_1" src="img/0.png" alt=""> <br>
+        <img id="imgln2_j1_2" src="img/0.png" alt=""> <br>
+        <img id="imgln2_j1_3" src="img/0.png" alt=""> <br>
+    </div>
+
+    <div class="areaObjeto_ln3">
+        <img id="imgln2_j2_1" src="img/0.png" alt=""> <br>
+        <img id="imgln2_j2_2" src="img/0.png" alt=""> <br>
+        <img id="imgln2_j2_3" src="img/0.png" alt=""> <br>
+    </div>
+</div>
+<!--Fin Seccion Ln3-->
+
+<!--Seccion Ln4-->
+<div class="fixAreaObjeto_Ln4">
+    <div class="areaObjeto_ln4">
+        <p id="lbl_TipoJuego"></p>
+    </div>
+</div>
+<!--Fin Seccion Ln4-->
+<hr>
+<!--Seccion Ln5-->
+<div class="fixAreaObjeto_Ln5">
+    <div class="areaObjeto_ln5">
+        <input type="button" value="-" id="btn_Res_1">
+    </div>
+    
+    <div class="areaObjeto_ln5">
+        <p id="lbl_score_j1">0</p>
+    </div>
+    
+    <div class="areaObjeto_ln5">
+        <input type="button" value="Fin" id="btn_fin">
+    </div>
+    
+    <div class="areaObjeto_ln5">
+        <p id="lbl_score_j2">0</p>
+    </div>
+    
+    <div class="areaObjeto_ln5">
+        <input type="button" value="-" id="btn_Res_2">
+    </div>
+</div>
+<!--Fin Seccion Ln5-->
+</div>
+</body>
+</html>

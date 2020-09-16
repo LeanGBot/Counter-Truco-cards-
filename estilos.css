@@ -1,0 +1,89 @@
+body {
+    background-image: url("img/Fondo.png");
+}
+
+* {box-sizing: border-box;}
+.lineaVert { /*linea vertical*/
+    border: 1px solid  rgb(10, 107, 163);
+    height: 75%;
+    position: absolute;
+    left: 50%;
+    margin-left: -2px;
+    top: 0;
+}
+#imgln1_j1_1, #imgln1_j1_2, #imgln1_j1_3, #imgln1_j2_1, #imgln1_j2_2, #imgln1_j2_3, #imgln2_j1_1, #imgln2_j1_2, #imgln2_j1_3, #imgln2_j2_1, #imgln2_j2_2, #imgln2_j2_3 {
+    width: 8vh;
+    height: 8vh;
+}  
+.logo {text-align: center; margin: 2vh auto 4vh auto;}
+.imglogo {width: 100%; height: 100%;}
+
+/*Comprobacion de divs de ambas pantallas
+.areaObjeto_ln1 {border: red 2px solid;}
+.areaObjeto_ln2 {border: red 2px solid;}
+.areaObjeto_ln3 {border: red 2px solid;}
+.areaObjeto_ln4 {border: red 2px solid;}
+.areaObjeto_ln5 {border: red 2px solid;}
+/*Fin comprobacion de divs*/
+
+/*Menu*/
+.menu {
+    text-align: center;
+    display: block;
+}
+#lblEquipo1, #lblEquipo2, #btnInicio, #selA30, #selA24 {
+    border-radius: 0 30% 0;
+    border: 0px;
+    background-color: rgb(10, 107, 163);
+    width: 50vh;
+    height: 7vh;
+    margin: 5%;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 4vh;
+}
+#selA30, #selA24 {width: 30%;}
+/*Fin Menu*/
+
+hr {border: 1px solid rgb(10, 107, 163); width: 95%;}
+
+/*Fixes*/
+img {width: 100%; height: 100%;}
+.areaObjeto_ln1, .areaObjeto_ln2, .areaObjeto_ln3, .areaObjeto_ln4, .areaObjeto_ln5 {
+    text-align: center;
+    float: left;
+}
+.areaObjeto_ln1 {width: 25%;}
+.areaObjeto_ln2 {width: 50%;}
+.areaObjeto_ln3 {width: 50%;}
+.areaObjeto_ln4 {width: 100%;}
+.areaObjeto_ln5 {width: 20%;}
+.areaObjeto_ln2, .areaObjeto_ln3 {height: 28vh;}
+.areaObjeto_ln4 {height: 12vh;}
+/*Fin fixes*/
+
+/*Botones*/
+.lbl2_Equipo1, .lbl2_Equipo1 {width: 10vh;}
+#btn_Inc_1, #btn_Inc_2, #btn_Res_1, #btn_Res_2, #btn_fin  {
+    border-radius: 50%;
+    margin: 1vh;
+    width: 10vh;
+    height: 10vh;
+    font-size: 5vh;
+    font-weight: bolder;
+}
+
+#btn_Inc_1, #btn_Res_1 {border-radius: 0 50% 50% 0 ;}
+#btn_Inc_2, #btn_Res_2 {border-radius: 50% 0 0 50%;}
+/*Fin Botones*/
+
+/*Texto*/
+#lbl2_Equipo1, #lbl2_Equipo2, #lbl_score_j1, #lbl_score_j2 {
+    font-size: 4vh;
+    font-weight: bolder;
+    color: white;
+}
+#lbl2_Equipo1, #lbl2_Equipo2 {font-size: 3.4vh; color: rgb(8, 221, 8);}
+#lbl_TipoJuego {color: rgb(20, 166, 177); font-size: 5vh; font-weight: bolder;}
+/*fin texto*/
